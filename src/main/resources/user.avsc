@@ -1,0 +1,10 @@
+{
+  "namespace":"com.jxl.avro",
+  "type":"record",
+  "name":"User",
+  "fields":[
+    {"name":"name", "type":"string"},
+    {"name":"age", "type":["int", "null"]},
+    {"name":"sex", "type":["string", "null"]}
+  ]
+}
